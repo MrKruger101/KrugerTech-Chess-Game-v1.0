@@ -32,7 +32,6 @@ public class Main : MonoBehaviour {
             }
             else
             {
-
                 UnityEngine.Debug.Log("Hit Game Object  " + uiEngine.piecePosition[cellNumber].ToString() + "  Cell Text " + cell.text + " World point (X,Y,Z)" + ChessUiEngine.ToWorldPoint(cellNumber).ToString());
             }
         }
